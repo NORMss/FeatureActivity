@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         Button(
                             onClick = {
-                                startActivity(Intent(this@MainActivity, PipActivity::class.java))
+                                startActivity(Intent(applicationContext, PipActivity::class.java))
                             }
                         ) {
                             Text(
